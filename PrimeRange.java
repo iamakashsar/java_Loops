@@ -8,12 +8,12 @@ class PrimeRange
 		int start=sc.nextInt();
 		System.out.println("Enter the ending range:");
 		int end=sc.nextInt();
-		int count=0;
+		
 		
 		for(int i=start;i<=end;i++){
 			
 			int n=i;
-			
+			int count=0;
 
 			if(n<=1){
 				count++;
